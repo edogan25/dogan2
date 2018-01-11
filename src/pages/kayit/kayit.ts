@@ -42,5 +42,8 @@ export class KayitPage {
   ionViewDidLeave() {
     this.navCtrl.popToRoot();
       }
+      kayit2(){
+          
+      }
 
 }

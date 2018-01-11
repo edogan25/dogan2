@@ -14,5 +14,35 @@
 
 
 <ion-content padding>
-  <button style="margin-top: 15px;height: 35px;font-size: 14px;background: #10ABF4;" ion-button  block  (click)="tabb()">göster</button>
+  
+  <ion-list class="list-form" style="margin-top:30px;margin-bottom: 30px">
+  	
+      <ion-item>
+          <ion-label color="primary" stacked>Ad</ion-label>
+          <ion-input type="text" placeholder="Ad"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label color="primary" stacked>Soyad</ion-label>
+          <ion-input type="text" placeholder="Soyad"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label color="primary" stacked>E mail</ion-label>
+          <ion-input type="email" placeholder="example@example.com"></ion-input>
+        </ion-item>
+       
+        <ion-item>
+          <ion-label color="primary" stacked>Telefon</ion-label>
+          <ion-input type="number" placeholder="05*********"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label color="primary" stacked>Şifre</ion-label>
+          <ion-input type="password" placeholder="Şifre"></ion-input>
+        </ion-item>
+
+  </ion-list>
+
+  <button style="margin-top: 15px;height: 35px;font-size: 14px;background: #10ABF4;" ion-button  block  (click)="kayit2()">Kayıt</button>
 </ion-content>
